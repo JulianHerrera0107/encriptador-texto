@@ -13,58 +13,36 @@
     <header class="header">
         <img class="header_logo" src="images/Logo.png" alt="Logo de Alura Latam">
     </header>
-    <main class="Programa">
+    <main>
         <section class="Contenedor_entrada">
             <div class="Cont_text_encriptar">
-                <textarea 
-                name="Cont_texto"
-                class="Cont_texto"
-                id="Cont_texto" 
-                cols="30" 
-                rows="10" 
-                placeholder="Ingrese el texto aqui">
-                </textarea>
+                <textarea name="Cont_texto" class="Cont_texto" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
             </div>
             <div class="Cont_alerta">
+                <img src="images/alerta.svg" alt="Alerta">
                 <p>Solo letras minúsculas y sin acentos</p>
             </div>
             <div class="Cont_botones_input">
-                <input 
-                type="button" 
-                class="btn_encriptar" 
-                value="Encriptar"/>
-                <input 
-                type="button" 
-                class="btn_desencriptar" 
-                value="Desencriptar"/>
+                <input type="button" class="btn_encriptar" value="Encriptar"/>
+                <input type="button" class="btn_desencriptar" value="Desencriptar"/>
             </div>
         </section>
         <section class="Contenedor_salida">
-            <img class="Cont_imagen_muneco" src="images/Muñeco.png" alt="Muñeco con lupa">
-            <div class="Cont_text_encriptado" id="Cont_text_encriptado">
-                <h2 id="subtitulo_mensaje">Ningún mensaje fue encontrado</h2>
-                <p id="instruccion">
-                    Ingresa el texto que desees encriptar o desencriptar.
-                </p>
-                <textarea 
-                name="Cont_salida_mensaje"
-                class="Cont_mensaje"
-                id="Cont_mensaje" 
-                cols="30" 
-                rows="10">
-                </textarea>
+            <div class="Cont_imagen_muneco">
+                <img src="images/Muñeco.png" alt="Muñeco con lupa">
+            </div>
+            <div class="Cont_text_mensaje">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
             </div>
             <div class="Cont_botones_output">
-                <input 
-                type="button" 
-                class="btn_copiar" 
-                value="Copiar"/>
+                <input type="button" class="btn_copiar" value="Copiar"/>
+            </div>
+            <div class="Cont_text_encriptado">
+                <p class="Cont_texto_resultado"></p>
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <p>Desarrollado por Julian Herrera</p>
-    </footer>
 </body>
 <script src="app.js"></script>
 </html>
