@@ -1,0 +1,41 @@
+
+
+:root{
+    --color-primario: #000000;
+
+    --fuente-inter: "Inter"
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #F3F5FC;
+    box-sizing: border-box;
+    font-family: var(--fuente-inter);
+}
+
+.header {
+    padding-top: 40px;
+    margin-left: 40px;
+}
+
+.header_logo {
+    width: 10%;
+}
+
+main{
+    display: flex;
+}
+
+
+.footer{
+    padding: 1.5rem 0;
+    text-align: center;
+    font-family: var(--fuente-inter);
+    font-size: 1rem;
+    font-weight: 400;
+}
