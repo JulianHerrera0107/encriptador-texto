@@ -23,8 +23,8 @@
                 <p>Solo letras minúsculas y sin acentos</p>
             </div>
             <div class="Cont_botones_input">
-                <input type="button" class="btn_encriptar" value="Encriptar"/>
-                <input type="button" class="btn_desencriptar" value="Desencriptar"/>
+                <input type="button" onclick="btnEncriptar()" class="btn_encriptar" value="Encriptar"/>
+                <input type="button" onclick="btnDesencriptar()" class="btn_desencriptar" value="Desencriptar"/>
             </div>
         </section>
         <section class="Contenedor_salida">
@@ -39,7 +39,7 @@
                 <input type="button" class="btn_copiar" value="Copiar"/>
             </div>
             <div class="Cont_text_encriptado">
-                <p class="Cont_texto_resultado"></p>
+                <textarea class="Cont_texto_resultado" disabled></textarea>
             </div>
         </section>
     </main>
